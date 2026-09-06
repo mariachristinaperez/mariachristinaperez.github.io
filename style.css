@@ -1,0 +1,67 @@
+/* =========================
+   GENERAL STYLES
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffdf5;
+    color: #222222;
+    line-height: 1.6;
+    padding: 60px 8%;
+}
+
+
+/* =========================
+   HEADINGS
+   ========================= */
+
+h1 {
+    font-size: 56px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   PARAGRAPHS
+   ========================= */
+
+p {
+    font-size: 18px;
+    max-width: 700px;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 40px 6%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
